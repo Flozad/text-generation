@@ -3,7 +3,7 @@ from transformers import pipeline
 # The generator choosen depends on the RAM capacity of the PC
 
 # generator = pipeline('text-generation', model='EleutherAI/gpt-neo-2.7B')
-generator = pipeline('text-generation', model='EleutherAI/gpt-neo-1.3B') # I have 16 gb of ram use up to this option
+generator = pipeline('text-generation', model='EleutherAI/gpt-neo-1.3B') # I have 16 gb of ram and use up to this option
 #generator = pipeline('text-generation', model='EleutherAI/gpt-neo-125M')
 
 # The text guied and first sentence
